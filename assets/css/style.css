@@ -7,7 +7,7 @@ body {
     color: #39a6b2;
     font-family: Helveitca, Arial, sans-serif;
 }
-/* apply styles to header */
+/* header / navigation / footer sections */
 header {
     display: flex;
     justify-content: space-between;
@@ -63,7 +63,8 @@ footer a {
 section {
     padding: 60px;
 }
-/* Hero Style Start */
+
+/* hero section */
 .hero {
     background-image: url("../images/hero-bg.jpg");
     background-size: cover;
@@ -120,7 +121,8 @@ section {
     padding: 10px 20px;
     font-size: 16px;
 }
-/* Hero Style End */
+
+/* steps section */
 .section-title {
     font-size: 48px;
     color: #024e76;
@@ -187,6 +189,8 @@ section {
     font-size: 26px;
     line-height: 1.5;
 }
+
+/* trainers section */
 .trainers {
     width: 100%;
     margin: 0 auto;
@@ -224,6 +228,20 @@ section {
 .trainer-bio p {
     font-size: 17px;
 }
+
+/* service plans section*/
+.service-grid-container {
+    display: grid;
+}
+.service-grid-item {
+    width: 200px;
+    height:50px;
+    background-color: orange;
+    border: solid;
+    color: black;
+}
+
+/*reach out section*/
 .contact {
     background: #024e76;
 }
